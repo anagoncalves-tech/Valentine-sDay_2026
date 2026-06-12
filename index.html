@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>6 Anos, 6 Fases, 1 Amor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bgMusic" loop preload="auto">
+    <source src="assets/musica.mp3" type="audio/mpeg">
+  </audio>
+<div class="background-glow"></div>
+  <div class="stars" id="stars"></div>
+  <div class="hearts" id="hearts"></div>
+
+  <main class="app">
+
+    <section id="startScreen" class="screen active">
+      <div class="card hero cinematic">
+        <p class="tag">Dia dos Namorados + Nosso Aniversário</p>
+
+        <h1>6 Anos <br /> 6 Fases <br /> 1 Amor</h1>
+
+        <br />
+        
+        <p>
+          Esses 6 anos foram feitos de amor, cuidado, parceria e muitos momentos que eu guardo no coração.
+          Obrigada por ser meu amor, meu companheiro e uma das partes mais bonitas da minha vida.
+        </p>
+
+        <br />
+
+        <div class="start-actions">
+          <button onclick="openMenu()">Menu</button>
+          <br />
+          <button class="secondary" onclick="openSurpriseMessage()">Mensagem surpresa</button>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="menuScreen" class="screen">
+      <div class="card hero cinematic">
+        <p class="tag">Menu da nossa história</p>
+
+        <p>
+          Cada jogo representa um pedacinho dos nossos anos juntos.
+        </p>
+
+        <div class="game-menu" id="gameMenu"></div>
+
+        <div class="start-actions">
+          <button class="secondary" onclick="showScreen('startScreen')">Início</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="gameScreen" class="screen">
+
+      <div class="card phase-card" id="phaseCard"></div>
+    </section>
+
+    <section id="finalScreen" class="screen">
+      <div class="card hero final-card">
+
+        <h1>Mas a nossa história continua...</h1>
+
+        <p>
+          Esses 6 anos foram feitos de amor, cuidado, parceria e muitos momentos que eu guardo no coração.
+          Obrigada por ser meu amor, meu companheiro e uma das partes mais bonitas da minha vida.
+        </p>
+
+        <p class="love-letter">
+          Eu te amo hoje, amanhã e em todos os próximos capítulos que ainda vamos viver juntos. ❤️
+        </p>
+
+        <div class="start-actions">
+          <button onclick="openMenu()">Voltar ao menu</button>
+          <br />
+          <button class="secondary" onclick="restartGame()">Voltar ao início</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
