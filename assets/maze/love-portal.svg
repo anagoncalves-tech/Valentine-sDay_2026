@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <defs>
+    <radialGradient id="portal" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".38" stop-color="#ff9dcc"/>
+      <stop offset=".72" stop-color="#8f5bff"/>
+      <stop offset="1" stop-color="#2a1038"/>
+    </radialGradient>
+  </defs>
+  <circle cx="75" cy="75" r="68" fill="rgba(255,255,255,.12)"/>
+  <circle cx="75" cy="75" r="54" fill="url(#portal)" stroke="#ffd0e5" stroke-width="6"/>
+  <circle cx="75" cy="75" r="35" fill="rgba(20,9,31,.35)"/>
+  <path d="M75 100 C46 78 43 57 56 47 C66 39 73 46 75 54 C77 46 84 39 94 47 C107 57 104 78 75 100Z" fill="#fff"/>
+  <path d="M35 28 L42 42 L57 46 L42 51 L35 65 L28 51 L13 46 L28 42Z" fill="#ffd0e5"/>
+  <path d="M117 17 L122 28 L133 33 L122 38 L117 49 L112 38 L101 33 L112 28Z" fill="#ff9dcc"/>
+</svg>

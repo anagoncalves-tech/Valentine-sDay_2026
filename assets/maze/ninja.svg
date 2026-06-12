@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140">
+  <defs>
+    <linearGradient id="suit" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#3b1b72"/>
+      <stop offset="1" stop-color="#14091f"/>
+    </linearGradient>
+    <linearGradient id="scarf" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff4f9a"/>
+      <stop offset="1" stop-color="#8f5bff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="70" cy="70" r="62" fill="rgba(255,255,255,.12)"/>
+  <path d="M32 72 C32 35 51 17 70 17 C89 17 108 35 108 72 C108 107 90 124 70 124 C50 124 32 107 32 72Z" fill="url(#suit)" stroke="#ffd0e5" stroke-width="5"/>
+  <rect x="36" y="52" width="68" height="29" rx="14" fill="#0b0612" stroke="#ff9dcc" stroke-width="4"/>
+  <circle cx="55" cy="66" r="6" fill="#fff"/>
+  <circle cx="85" cy="66" r="6" fill="#fff"/>
+  <circle cx="57" cy="66" r="2.5" fill="#14091f"/>
+  <circle cx="87" cy="66" r="2.5" fill="#14091f"/>
+  <path d="M55 94 C62 101 78 101 85 94" fill="none" stroke="#ffd0e5" stroke-width="5" stroke-linecap="round"/>
+  <path d="M94 41 C113 34 122 45 126 57 C113 54 104 51 94 41Z" fill="url(#scarf)"/>
+  <path d="M101 49 C121 48 132 61 135 78 C119 70 109 61 101 49Z" fill="#ff4f9a" opacity=".85"/>
+  <path d="M38 103 L20 120" stroke="#ffd0e5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M102 103 L120 120" stroke="#ffd0e5" stroke-width="6" stroke-linecap="round"/>
+</svg>

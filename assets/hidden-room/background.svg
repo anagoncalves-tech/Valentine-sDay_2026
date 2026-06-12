@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#16091f"/>
+      <stop offset="0.55" stop-color="#2a1038"/>
+      <stop offset="1" stop-color="#3d123d"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="50%" cy="35%" r="60%">
+      <stop offset="0" stop-color="#ff8cc8" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#g)"/>
+  <rect x="70" y="80" width="310" height="230" rx="24" fill="#0b1028" opacity=".85"/>
+  <circle cx="130" cy="135" r="3" fill="#fff"/><circle cx="180" cy="170" r="2" fill="#fff"/><circle cx="250" cy="120" r="2" fill="#fff"/><circle cx="320" cy="210" r="3" fill="#fff"/>
+  <rect x="650" y="120" width="360" height="210" rx="24" fill="#1a0d2a" stroke="#ff9dcc" stroke-opacity=".2"/>
+  <rect x="690" y="165" width="280" height="130" rx="14" fill="#0b0612"/>
+  <path d="M0 530 C250 490 420 570 650 525 C840 490 980 520 1200 500 L1200 720 L0 720 Z" fill="#14091d"/>
+  <rect x="120" y="430" width="360" height="150" rx="28" fill="#24112f"/>
+  <rect x="155" y="390" width="290" height="70" rx="24" fill="#38184a"/>
+  <rect x="760" y="410" width="300" height="95" rx="18" fill="#271232"/>
+  <rect x="790" y="335" width="240" height="90" rx="16" fill="#1a0d22"/>
+  <rect x="850" y="505" width="25" height="115" rx="10" fill="#2f173d"/>
+  <rect x="950" y="505" width="25" height="115" rx="10" fill="#2f173d"/>
+  <circle cx="600" cy="260" r="260" fill="url(#lamp)"/>
+  <text x="600" y="675" text-anchor="middle" fill="#ffcae3" font-family="Verdana" font-size="22" opacity=".6">Nosso quarto de memórias</text>
+</svg>

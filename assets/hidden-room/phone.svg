@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 240">
+  <rect x="35" y="10" width="110" height="220" rx="24" fill="#111827" stroke="#ff9dcc" stroke-width="5"/>
+  <rect x="48" y="36" width="84" height="160" rx="12" fill="#24103b"/>
+  <circle cx="90" cy="211" r="8" fill="#ff9dcc"/>
+  <circle cx="90" cy="105" r="38" fill="#ff4f9a"/>
+  <text x="90" y="114" text-anchor="middle" fill="white" font-size="25" font-family="Verdana" font-weight="bold">LOVO</text>
+</svg>
